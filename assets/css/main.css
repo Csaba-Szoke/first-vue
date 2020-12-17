@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(187, 187, 187);
+}
+
+.product-container {
+    overflow: auto;
+}
+
+.product-container .image-container,
+.product-container .details,
+.cart,
+.product-container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cart,
+.product-container .details {
+    margin-left: 50px;
+}
+
+.product-container .image-container img {
+    width: 200px;
+}
